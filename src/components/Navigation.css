@@ -1,0 +1,62 @@
+.header {
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    height: 64px;
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--primary-color);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    opacity: 0.95;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 40px;
+    width: auto;
+}
+
+.nav-menu {
+    flex-grow: 1;
+    background-color: transparent;
+    border-bottom: none;
+    justify-content: flex-end;
+}
+
+
+.header .ant-menu {
+    background-color: transparent;
+    border-bottom: none;
+}
+
+
+.header .ant-menu-item-selected {
+    background-color: transparent !important;
+    color: var(--background-color) !important;
+    border-bottom: none !important;
+}
+
+.header .ant-menu-item:active,
+.header .ant-menu-item:focus,
+.header .ant-menu-item:hover {
+    background-color: transparent !important;
+    color: var(--secondary-color) !important;
+    border-bottom: none !important;
+}
+
+.header .ant-menu-item a {
+    color: var(--accent-color); 
+    transition: all 0.3s ease;
+}
+
+.header .ant-menu-item a:hover {
+    color: var(--secondary-color); 
+    transition: all 0.3s ease;
+}

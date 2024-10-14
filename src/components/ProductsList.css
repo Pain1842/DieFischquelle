@@ -1,0 +1,29 @@
+.products-list-container {
+    padding: 20px; /* Weniger Padding für eine kompaktere Darstellung */
+    background-color: #f7f7f7; /* Gleicher Hintergrund wie andere Abschnitte */
+    max-width: 1000px; /* Breite an andere Abschnitte anpassen */
+    margin: 0 auto; /* Zentrierung */
+  }
+  
+  .products-list-container h2 {
+    font-size: 32px;
+    color: #023047;
+    margin-bottom: 30px;
+    text-decoration: underline var(--secondary-color);
+    text-underline-offset: 0.2em; 
+    text-decoration-thickness: 2px;
+  }
+  
+  .product-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  
+  .ant-card {
+    border: 1px solid #e8e8e8; /* Leichte Randlinie für klare Begrenzung */
+    box-shadow: none; /* Schatten entfernen */
+    margin-bottom: 16px; /* Weniger Abstand zwischen den Karten */
+  }
+  

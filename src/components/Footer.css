@@ -1,0 +1,31 @@
+.footer {
+    padding: 20px;
+    background-color: var(--primary-color);
+    color: #fff;
+    text-align: center;
+    border-top: 3px solid var(--accent-color);
+}
+
+.footer-container {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.footer-link {
+    color: var(--accent-color);
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
