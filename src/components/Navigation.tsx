@@ -1,7 +1,7 @@
 import React from 'react';
 import { Layout, Menu } from 'antd';
 import './Navigation.css';
-import logo from '/images/Fischquelle_Logo_Transparent_Background.png';
+import logo from './images/Fischquelle_Logo_Transparent_Background.png';
 import { useNavigate } from 'react-router-dom';
 
 const { Header } = Layout;

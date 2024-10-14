@@ -6,7 +6,7 @@ import MarketSchedule from './components/MarketSchedule';
 import './App.css';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Impressum from './components/Impressum';
 // import ProductsList from './components/ProductsList';
 
