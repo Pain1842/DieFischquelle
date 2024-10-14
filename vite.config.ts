@@ -2,7 +2,7 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-  base: '/REPOSITORY_NAME/',  // <--- Füge das hier hinzu
+  base: '/DieFischquelle/',
   plugins: [react()],
   css: {
     preprocessorOptions: {
